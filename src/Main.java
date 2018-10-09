@@ -12,8 +12,8 @@ public class Main {
 
             for (int index = input; index >= 1; index--) {
 
-				//=================================
-				// Method 1
+		//=================================
+		// Method 1
 				
 //                output = "";
 //
@@ -31,11 +31,11 @@ public class Main {
 //                else {
 //                    System.out.println(index);
 //                }
-				//=================================
+		//=================================
 
 
-				//=================================
-				// Method 2
+		//=================================
+		// Method 2
 				
                 if(index%7 == 0 && index%5 == 0){
                     System.out.println("CopyCat");
@@ -49,7 +49,7 @@ public class Main {
                 else {
                     System.out.println(index);
                 }
-				//=================================
+		//=================================
             }
 
             System.out.print("Would you like to enter another number (y/n)");
